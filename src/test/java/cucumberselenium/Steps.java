@@ -31,7 +31,7 @@ public class Steps {
     
     @Before()
     public void createDriver() {
-        driver = WebDriverFactory.createDriver();
+        driver = DriverFactoryUtil.createDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().setSize(new Dimension(1366, 768));
     }
