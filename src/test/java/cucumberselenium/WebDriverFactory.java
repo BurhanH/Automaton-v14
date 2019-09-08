@@ -8,6 +8,7 @@ package cucumberselenium;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.WebDriverException;
 /**
  *
  * @author baur
@@ -21,7 +22,7 @@ public final class WebDriverFactory {
             case "chrome":
                 return new ChromeDriver();
             default:
-                throw new RuntimeException("Unsupported webdriver: " + driver);
+                throw new WebDriverException("Unsupported webdriver: " + driver);
         }
     }    
 }
