@@ -10,13 +10,10 @@ This is almost fully functional testing framework based on Java programmming lan
 
 Main points:
 
-* Uses POM (Page Object Model), PageFactory, DriverFactoryUtil.
-
-* Automatically adds a screenshot into a test report if there is falure in a scenario.
-
-* Supports by default 2 most popular browsers, you may extend this behavior via adding new driver into DriverFactoryUtil class.
-
-* Automatically by default generates a test report in HTML format, you may extend or change this behavior in RunCucumberTest class. 
+1) Uses POM (Page Object Model), PageFactory, DriverFactoryUtil.
+2) Automatically adds a screenshot into a test report if there is falure in a scenario.
+3) Supports by default 2 most popular browsers, you may extend this behavior via adding new driver into DriverFactoryUtil class.
+4) Automatically by default generates a test report in HTML format, you may extend or change this behavior in RunCucumberTest class. 
 
 ## Requirements
 JDK 12, Junit 4.12, Cucumber 4.2.6, <br>
