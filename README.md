@@ -63,6 +63,6 @@ Maven (software project management) <br>
 
 ## How to add tests
 1) Create a feature file in src/test/resources/cucumberselenium folder
-2) Add a content into the feature file (follow Gerkin syntax language)
+2) Add content into the feature file (follow Gerkin syntax language)
 3) Add step definitions into Steps.java class
 4) Run tests
