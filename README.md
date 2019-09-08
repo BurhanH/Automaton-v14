@@ -50,10 +50,10 @@ Maven (software project management) <br>
 4) Clone or copy (download) the repository into the project folder
 5) Install Firefox or/and Chrome web browser/s
 6) Download, extract and move geckodriver/chromedriver into specific folder
-7) Point proper path to drivers folder (step 5) in pom.xml file properties section (lines 17-18)
+7) Point proper path to drivers folder (step 6) in pom.xml file properties section (lines 17-18)
 
 ## How to run tests
 1) Open a terminal session
 2) Move to the project folder
 3) Execute `mvn clean test` - will run tests for Firefox browser (by default)
-3.1) Execute `mvn clean test -D browser=chrome` - will run tests for Chrome browser
+4) Execute `mvn clean test -D browser=chrome` - will run tests for Chrome browser
