@@ -10,7 +10,7 @@ This is almost fully functional testing framework based on Java programmming lan
 
 Main points:
   - Uses POM (Page Object Model), PageFactory, DriverFactoryUtil. 
-  - Automatically adds a screenshot into test report if there is falure in a scenario.
+  - Automatically adds a screenshot into a test report if there is falure in a scenario.
   - Supports by default 2 most popular browsers, you may extend this behaviour via adding new driver into DriverFactoryUtil class.
 
 ## Requirements
@@ -57,3 +57,4 @@ Maven (software project management) <br>
 2) Move to the project folder
 3) Execute `mvn clean test` - will run tests for Firefox browser (by default)
 4) Execute `mvn clean test -D browser=chrome` - will run tests for Chrome browser
+5) Check a test report (by default a test report generates into src/target/SystemTestReport/html folder)
