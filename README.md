@@ -60,3 +60,9 @@ Maven (software project management) <br>
 3) Execute `mvn clean test` - will run tests for Firefox browser (by default)
 4) Execute `mvn clean test -D browser=chrome` - will run tests for Chrome browser
 5) Check a test report (by default a test report generates into src/target/SystemTestReport/html folder)
+
+## How to add tests
+1) Create a feature file in src/test/resources/cucumberselenium folder
+2) Add a content into the feature file (follow Gerkin syntax language)
+3) Add step definitions into Steps.java class
+4) Run tests
