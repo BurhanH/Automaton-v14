@@ -13,7 +13,7 @@ import org.openqa.selenium.WebDriverException;
  *
  * @author baur
  */
-public final class WebDriverFactory {
+public final class DriverFactoryUtil {
     public static WebDriver createDriver() {
         String driver = System.getProperty("browser", "firefox");
         switch(driver) {
