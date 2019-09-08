@@ -65,4 +65,9 @@ Maven (software project management) <br>
 1) Create a feature file in src/test/resources/cucumberselenium folder
 2) Add content into the feature file (follow Gerkin syntax language)
 3) Add step definitions into Steps.java class
-4) Run tests
+4) Add pages (follow an example for DuckDuckGo)
+5) Run tests
+
+## How to debug / troubleshoot 
+
+Under construction
