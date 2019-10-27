@@ -17,8 +17,8 @@ Main points:
 
 ## Requirements
 JDK 12, Junit 4.12, Cucumber 4.2.6, <br>
-Selenium 3.141.59, gekodriver 0.24.0, chromedriver 76.0.3809.126, <br>
-Mozilla Firefox 69.0, Google Chrome 76.0.3809.132, <br>
+Selenium 3.141.59, gekodriver 0.26.0, chromedriver 77.0.3865.40, <br>
+Mozilla Firefox 70.0, Google Chrome 77.0.3865.120, <br>
 Maven (software project management) <br>
 
 ## Project structure
