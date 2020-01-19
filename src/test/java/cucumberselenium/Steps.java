@@ -46,7 +46,7 @@ public class Steps {
     public void userEntersTermWordAndClicksSearchButton(String term) {
         DuckDuckGoPage searchPage = new DuckDuckGoPage(driver);
         searchPage.setSearch(term);
-        searchPage.Search();
+        searchPage.search();
     }
 
     @Then("user gets results")
